@@ -3,8 +3,9 @@
 A small SwiftUI prototype that demonstrates **explicit data freshness** (synced / pending / partial / failed),
 a deterministic **sync state machine**, and **debuggable observability** for mobile data pipelines.
 
-## Demo (no cloning needed)
-➡️ Demo video: (add your GitHub Release link here once created)
+## Demo
+📽️ Watch the 2-minute demo (no setup required):  
+https://www.loom.com/share/8b083659498a48fbad73db9f7f9631c3
 
 ## What this demonstrates (engineering)
 - **Stale-while-revalidate**: UI renders immediately from local snapshot (no blank screens)
