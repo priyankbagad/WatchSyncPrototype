@@ -1,0 +1,62 @@
+{
+  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "date": "2025-02-03T00:00:00.000Z",
+  "metrics": [
+    {
+      "id": "b1b2c3d4-e5f6-7890-abcd-ef1234567001",
+      "name": "Recovery",
+      "value": 72.0,
+      "unit": "%",
+      "freshness": "synced",
+      "source": "remote",
+      "lastUpdatedAt": "2025-02-03T07:15:00.000Z",
+      "note": null
+    },
+    {
+      "id": "b1b2c3d4-e5f6-7890-abcd-ef1234567002",
+      "name": "Sleep",
+      "value": 6.5,
+      "unit": "hr",
+      "freshness": "partial",
+      "source": "local",
+      "lastUpdatedAt": "2025-02-03T06:30:00.000Z",
+      "note": "Nap segment could not be synced."
+    },
+    {
+      "id": "b1b2c3d4-e5f6-7890-abcd-ef1234567003",
+      "name": "Strain",
+      "value": 12.4,
+      "unit": "",
+      "freshness": "pending",
+      "source": "local",
+      "lastUpdatedAt": "2025-02-03T14:00:00.000Z",
+      "note": "Upload queued."
+    }
+  ],
+  "workouts": [
+    {
+      "id": "c1b2c3d4-e5f6-7890-abcd-ef1234567001",
+      "activityType": "Running",
+      "startDate": "2025-02-03T06:00:00.000Z",
+      "durationSeconds": 1800.0,
+      "freshness": "synced",
+      "source": "remote",
+      "lastUpdatedAt": "2025-02-03T06:35:00.000Z",
+      "note": null
+    },
+    {
+      "id": "c1b2c3d4-e5f6-7890-abcd-ef1234567002",
+      "activityType": "Strength",
+      "startDate": "2025-02-03T12:00:00.000Z",
+      "durationSeconds": 2700.0,
+      "freshness": "failed",
+      "source": "local",
+      "lastUpdatedAt": "2025-02-03T12:45:00.000Z",
+      "note": "Auth expired. Please re-login."
+    }
+  ],
+  "freshness": "partial",
+  "source": "local",
+  "lastUpdatedAt": "2025-02-03T14:30:00.000Z",
+  "note": null
+}
